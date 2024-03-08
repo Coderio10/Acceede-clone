@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+}
+
+/* Hero */
+.Hero {
+    display: flex;
+    padding: 3.5rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.Hero .text-section,
+.Hero .img-section {
+    width: 50%;
+    border: 1px solid red;
+}
+
+.Hero h1 {
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 500;
+    color: #0b0f19;
+}
+
+
+
+/* About */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 5rem 2.5rem;
+}
+
+.about-section h2 {
+    font-size: 40px;
+    line-height: 59px;
+    font-weight: 500;
+    color: #0b0f19;
+}
+
+.about-section .text {
+    font-size: 18px;
+    line-height: 36px;
+    color: #262626;
+}
+
+.niche-sec {
+    display: flex;
+    border: 1px solid red;
+    padding: 1.5rem;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.niche {
+    /* border: 1px solid red; */
+    width: 320px;
+    padding: 2.5rem;
+    color: white;
+    text-align: left;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.niche h4 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+
+}
+
+.niche p {
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.niche button {
+    background-color: transparent;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+}
+
+.niche div {
+    /* border: 1px solid red; */
+    height: 180px;
+}
+
+.niche:first-child {
+    background-color: #267dff;
+}
+
+.niche:nth-child(2) {
+    background-color: #00d085;
+}
+
+.niche:nth-child(3) {
+    background-color: #9867ff;
+}
+
+.niche img {
+    width: 100%
+}
+
+.niche .icon {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 2rem;
+}
+
+/* Testimonials */
+
+.testimonials-section {
+    font-family: "Poppins";
+    background-color: white;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.testimonials-section h1 {
+    font-size: 34px;
+} 
+
+.testimony-sec {
+    display: flex;
+    border: 1px solid red;
+    padding: 1.5rem;
+    gap: 20px;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* border: 1px solid red; */
+    padding:2rem 1rem;
+    gap: 0.3rem;
+    box-shadow: 1px 1px 5px -1px #000;
+}
+
+.testimony h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: .5rem;
+}
+
+.testimony .sch {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #262626
+}
+
+.testimony .line{
+    background-color: #e2e5f1;
+    width: 250px;
+    height: 1.5px;
+    border-radius: 50%;
+}
+
+.testimony .text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #262626
+}
+
